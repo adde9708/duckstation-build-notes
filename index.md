@@ -19,9 +19,7 @@ a {
   color: #58a6ff;
 }
 
-code {
-     padding: 0.2em 0.4em;
-}
+
 
 pre, code {
   background: #161b22;
