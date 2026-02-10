@@ -1,6 +1,7 @@
 ---
 title: "Building DuckStation locally on Arch Linux and NixOS"
-date: 2026-02-11
+description: "How to build DuckStation on Arch Linux and NixOS without distributing patches."
+date: 2026-02-10
 tags: [linux, arch, nixos, duckstation, cmake, packaging]
 ---
 
