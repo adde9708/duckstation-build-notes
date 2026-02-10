@@ -35,6 +35,7 @@ code {
 
 .markdown-body pre {
   border-left: 2px solid #00ff66;
+  border-right: 2px solid #00ff66;
   padding: 1em;
   overflow-x: auto;
   box-shadow:
