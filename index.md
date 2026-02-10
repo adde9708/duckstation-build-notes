@@ -92,7 +92,7 @@ Here’s an example snippet you can add in your overlay:
 
 ```nix
 postPatch = ''
-  substituteInPlace CMakeLists.txt \
+  substituteInPlace CMakeModules/DuckStationBuildSummary.cmake \
     --replace 'message(FATAL_ERROR "Unsupported environment.")' \
               'message(WARNING "Unsupported environment.")'
 '';
