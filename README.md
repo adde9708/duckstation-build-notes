@@ -1,5 +1,6 @@
-# duckstation-build-notes
+# DuckStation build notes (Arch Linux / NixOS)
 
----
+Instructions for building DuckStation locally on Arch Linux and NixOS using
+inline build-script modifications (no patch redistribution)
 
-Just some notes on how to locally build duckstation
+Read here: [Build Notes](https://adde9708.github.io/duckstation-build-notes/)
