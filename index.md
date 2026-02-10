@@ -29,7 +29,7 @@ code {
   background: #050a05 !important;
   color: #00ff66 !important;
   border-radius: 6px;
-  font-family: Consolas, ui-monospace, SFMono-Regular, monospace;
+  font-family: SFMono-Regular, Consolas, ui-monospace, monospace;
   text-shadow: 0 0 6px rgba(0,255,102,0.35);
 }
 
