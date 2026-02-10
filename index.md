@@ -1,7 +1,6 @@
 ---
 title: "Building DuckStation locally on Arch Linux and NixOS"
 description: "How to build DuckStation on Arch Linux and NixOS by patching the build system locally without distributing patched source files."
-date: 2026-02-10
 tags: [linux, arch, nixos, duckstation, cmake, packaging]
 ---
 
@@ -80,8 +79,8 @@ This means:
 * No patch files are distributed separately.
 * The upstream source tarball remains unchanged; modifications are applied only
   inside your local build directory.
-* Your PKGBUILD remains local or published on AUR without violating
-  upstream's patch redistribution policy.
+* Your PKGBUILD remains local so you avoid violating
+  upstream's redistribution policy.
 
 ---
 
