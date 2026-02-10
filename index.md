@@ -2,7 +2,53 @@
 title: "Building DuckStation locally on Arch Linux and NixOS"
 description: "How to build DuckStation on Arch Linux and NixOS by patching the build system locally without distributing patched source files."
 tags: [linux, arch, nixos, duckstation, cmake, packaging]
+
 ---
+
+<!-- markdownlint-disable MD033 -->
+<style>
+@media (prefers-color-scheme: dark) {
+body {
+  background: #0d1117;
+  color: #c9d1d9;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: #58a6ff;
+}
+
+code {
+     padding: 0.2em 0.4em;
+}
+
+pre, code {
+  background: #161b22;
+  color: #c9d1d9;
+  border-radius: 6px;
+}
+
+pre {
+  padding: 1em;
+  overflow-x: auto;
+}
+
+blockquote {
+  border-left: 3px solid #30363d;
+  padding-left: 1em;
+  color: #8b949e;
+}
+
+h1, h2, h3 {
+  color: #e6edf3;
+}
+
+hr {
+  border-color: #30363d;
+}
+}
+</style>
 
 # Building DuckStation locally on Arch Linux and NixOS
 
