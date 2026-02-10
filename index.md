@@ -7,46 +7,54 @@ tags: [linux, arch, nixos, duckstation, cmake, packaging]
 
 <!-- markdownlint-disable MD033 -->
 <style>
-@media (prefers-color-scheme: dark) {
+:root {
+  color-scheme: dark;
+}
+
 body {
-  background: #0d1117;
-  color: #c9d1d9;
+  background: #0d1117 !important;
+  color: #c9d1d9 !important;
   font-family: system-ui, sans-serif;
   line-height: 1.6;
 }
 
 a {
-  color: #58a6ff;
+  color: #58a6ff !important;
 }
 
-
-
-pre, code {
-  background: #161b22;
-  color: #c9d1d9;
+.markdown-body pre,
+.markdown-body code,
+pre,
+code {
+  background-color: #161b22 !important;
+  color: #c9d1d9 !important;
   border-radius: 6px;
 }
 
-pre {
+.markdown-body pre {
   padding: 1em;
   overflow-x: auto;
+}
+
+.markdown-body code {
+  padding: 0.2em 0.4em;
 }
 
 blockquote {
   border-left: 3px solid #30363d;
   padding-left: 1em;
-  color: #8b949e;
+  color: #8b949e !important;
 }
 
 h1, h2, h3 {
-  color: #e6edf3;
+  color: #e6edf3 !important;
 }
 
 hr {
   border-color: #30363d;
 }
-}
 </style>
+
 
 # Building DuckStation locally on Arch Linux and NixOS
 
