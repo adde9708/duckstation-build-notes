@@ -33,9 +33,9 @@ code {
   text-shadow: 0 0 6px rgba(0,255,102,0.35);
 }
 
-.markdown-body pre {
-  padding: 1em;
+.markdown-body pre{
   border-left: 2px solid #00ff66;
+  padding: 1em;
   overflow-x: auto;
   box-shadow:
     inset 0 0 20px rgba(0,255,102,0.08),
