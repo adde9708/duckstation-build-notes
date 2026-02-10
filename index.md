@@ -26,29 +26,33 @@ a {
 .markdown-body code,
 pre,
 code {
-  background-color: #161b22 !important;
-  color: #c9d1d9 !important;
+  background: #050a05 !important;
+  color: #00ff66 !important;
   border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  text-shadow: 0 0 6px rgba(0,255,102,0.35);
 }
 
 .markdown-body pre {
   padding: 1em;
   overflow-x: auto;
+  box-shadow:
+    inset 0 0 20px rgba(0,255,102,0.08),
+    0 0 12px rgba(0,255,102,0.15);
 }
 
 .markdown-body code {
   padding: 0.2em 0.4em;
 }
 
- code {
-  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
-}
 .markdown-body pre *,
 .markdown-body code * {
-  color: #c9d1d9 !important;
+  color: #00ff66 !important;
 }
+
 .pl-c {
-  color: #8b949e !important;
+  color: #00aa44 !important;
+  text-shadow: none;
 }
 
 blockquote {
@@ -65,7 +69,6 @@ hr {
   border-color: #30363d;
 }
 </style>
-
 
 # Building DuckStation locally on Arch Linux and NixOS
 
