@@ -1,6 +1,6 @@
 ---
 title: "Building DuckStation locally on Arch Linux and NixOS"
-description: "How to build DuckStation on Arch Linux and NixOS without distributing patches."
+description: "How to build DuckStation on Arch Linux and NixOS by patching the build system locally without distributing patched source files."
 date: 2026-02-10
 tags: [linux, arch, nixos, duckstation, cmake, packaging]
 ---
@@ -122,7 +122,7 @@ error and let the build continue.
 ## Why This Approach Matters
 
 * **Respecting Licensing and Upstream Wishes:** You never distribute
-  modified build files or patches—only instructions embedded in your
+  modified build files or patches, only instructions embedded in your
   packaging scripts.
 * **Easy to Maintain:** When DuckStation updates, just update your
   packaging scripts accordingly.
