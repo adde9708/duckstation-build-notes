@@ -43,8 +43,13 @@ code {
  code {
   font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
 }
-
-
+.markdown-body pre *,
+.markdown-body code * {
+  color: #c9d1d9 !important;
+}
+.pl-c {
+  color: #8b949e !important;
+}
 
 blockquote {
   border-left: 3px solid #30363d;
