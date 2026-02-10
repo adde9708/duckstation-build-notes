@@ -40,6 +40,12 @@ code {
   padding: 0.2em 0.4em;
 }
 
+ code {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+
+
 blockquote {
   border-left: 3px solid #30363d;
   padding-left: 1em;
